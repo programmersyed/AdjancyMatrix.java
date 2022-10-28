@@ -14,6 +14,8 @@ public class Main {
         graph.addEdge(4,2);
         graph.print();
         System.out.println(graph.checkEdge(0,1));
+        graph.depthFirstSearch(2);
+
     }
 }
 // Adjacency Matrix = An array to store 1's/0's to represent edges
